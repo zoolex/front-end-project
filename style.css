@@ -673,6 +673,19 @@ span {
     .project-description {
         margin-left: 0;
     }
+    
+    /* Contact Section */
+     .contact-container {
+        flex-direction: column; /* Stack vertically */
+        align-items: center; /* Center align */
+        gap: 20px; /* Add spacing between boxes */
+    }
+    
+    email-container,
+    .social-container {
+        width: 100%; /* Full width on small screens */
+        max-width: 400px; /* Optional: limit the width */
+    }
 }
 @media (max-width: 480px) {
     .skill-card {
